@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="13" height="17" tilewidth="48" tileheight="48" infinite="0" nextlayerid="4" nextobjectid="99">
+ <tileset firstgid="1" source="瓦砾图1.tsx"/>
+ <layer id="1" name="Floor" width="13" height="17">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,7,8,8,9,31,31,31,7,8,8,9,0,
+0,17,18,18,19,31,31,31,17,18,18,19,0,
+0,27,28,28,29,31,31,31,27,28,28,29,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,7,8,8,9,31,31,31,7,8,8,9,0,
+0,17,18,18,19,31,31,31,17,18,18,19,0,
+0,27,28,28,29,31,31,31,27,28,28,29,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,31,31,31,31,31,31,31,31,31,31,31,0,
+0,0,0,0,0,0,31,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Wall" width="13" height="17">
+  <data encoding="csv">
+0,32,32,32,32,42,43,44,32,32,32,32,0,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+86,0,0,0,0,0,0,0,0,0,0,0,86,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+86,0,0,0,0,0,0,0,0,0,0,0,86,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+86,0,0,0,0,0,0,0,0,0,0,0,86,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+86,0,0,0,0,0,0,0,0,0,0,0,86,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+86,0,0,0,0,0,0,0,0,0,0,0,86,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+86,0,0,0,0,0,0,0,0,0,0,0,86,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+86,0,0,0,0,0,0,0,0,0,0,0,86,
+85,0,0,0,0,0,0,0,0,0,0,0,85,
+0,32,32,32,32,32,0,32,32,32,32,32,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Object">
+  <object id="12" x="72" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="53" x="408" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" x="264" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" x="72" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="46" x="408" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="25" x="72" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="42" x="408" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" x="72" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" x="408" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="33" x="72" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="34" x="408" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="17" x="168" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="50" x="504" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="55" x="360" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="18" x="168" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="47" x="504" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" x="168" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="43" x="504" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="26" x="168" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" x="504" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" x="168" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="35" x="504" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" x="120" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="52" x="456" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="56" x="312" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" x="120" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="48" x="456" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="24" x="120" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="44" x="456" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="28" x="120" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" x="456" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" x="120" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" x="456" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="16" x="216" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="51" x="552" y="72">
+   <properties>
+    <property name="Mesh" value=""/>
+    <property name="Tag" value="bookshelf1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" x="216" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="49" x="552" y="168">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" x="216" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" x="120" y="360">
+   <properties>
+    <property name="Mesh" value="table1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="60" x="504" y="360">
+   <properties>
+    <property name="Mesh" value="table1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="61" x="504" y="552">
+   <properties>
+    <property name="Mesh" value="table1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="62" x="120" y="552">
+   <properties>
+    <property name="Mesh" value="table1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="63" x="72" y="312">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="68" x="72" y="504">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="70" x="72" y="600">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="72" x="456" y="600">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="74" x="456" y="504">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="76" x="456" y="408">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="78" x="456" y="312">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="64" x="168" y="312">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="67" x="168" y="504">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="69" x="168" y="600">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="71" x="552" y="600">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="73" x="552" y="504">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="75" x="552" y="408">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="77" x="552" y="312">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="65" x="72" y="408">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="66" x="168" y="408">
+   <properties>
+    <property name="Mesh" value="stool1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="45" x="552" y="264">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="27" x="216" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="41" x="552" y="456">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="31" x="216" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="37" x="552" y="648">
+   <properties>
+    <property name="Mesh" value="bookshelf1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="79" x="48" y="48" width="528" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="81" x="48" y="144" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="86" x="384" y="240" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="85" x="48" y="240" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="87" x="48" y="432" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="89" x="48" y="624" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="90" x="384" y="624" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="88" x="384" y="432" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="84" x="384" y="144" width="192" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="91" x="48" y="336" width="144" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="92" x="48" y="528" width="144" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="93" x="432" y="528" width="144" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="94" x="432" y="336" width="144" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="95" x="300" y="444" width="24" height="24">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="96" x="312" y="408">
+   <properties>
+    <property name="Mesh" value="tree"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="97" x="288" y="768" width="48" height="48">
+   <properties>
+    <property name="Teleport" value="hallway.library_exit"/>
+   </properties>
+  </object>
+  <object id="98" name="library_entrance" x="312" y="744">
+   <properties>
+    <property name="Tag" value="library_entrance"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
