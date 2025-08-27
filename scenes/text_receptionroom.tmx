@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="7" height="5" tilewidth="48" tileheight="48" infinite="0" nextlayerid="4" nextobjectid="14">
+ <tileset firstgid="1" source="text.tsx"/>
+ <layer id="1" name="Floor" width="7" height="5">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,6,6,6,6,6,0,
+0,6,6,6,6,6,0,
+0,6,6,6,6,6,0,
+0,0,0,0,6,0,0
+</data>
+ </layer>
+ <layer id="2" name="Wall" width="7" height="5">
+  <data encoding="csv">
+0,3,1,2,1,4,0,
+3,0,0,0,0,0,3,
+1,0,0,0,0,0,5,
+1,0,0,0,0,0,1,
+0,1,1,1,0,1,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Object">
+  <object id="2" x="264" y="96">
+   <properties>
+    <property name="Mesh" value="bed1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" x="276" y="168">
+   <properties>
+    <property name="Mesh" value="chest1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" x="144" y="72">
+   <properties>
+    <property name="Mesh" value="sofa1"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="6" x="168" y="132">
+   <properties>
+    <property name="Mesh" value="table2"/>
+    <property name="Tag" value=""/>
+   </properties>
+   <point/>
+  </object>
+  <object id="7" x="96" y="48" width="96" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" x="144" y="120" width="48" height="24">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" x="240" y="48" width="48" height="96">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" x="264" y="144" width="24" height="48">
+   <properties>
+    <property name="Collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" x="192" y="192" width="48" height="48">
+   <properties>
+    <property name="Teleport" value="road.text_exit"/>
+   </properties>
+  </object>
+  <object id="12" name="text_entry" x="216" y="180">
+   <properties>
+    <property name="Tag" value="text_entry"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
